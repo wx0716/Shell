@@ -1,5 +1,5 @@
 ### 下载JDK
-下载地址为：https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jdk-8u221-linux-x64.tar.gz?AuthParam=1568443470_8fcdbd212148d6ad2647fddb2bdeacd3
+下载地址为：https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 下载完成后，进行解压操作：
 ```bash
