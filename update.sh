@@ -24,4 +24,23 @@ sudo apt install wget
 echo ''
 echo '更新成功，已成功退出！'
 echo ''
-echo '恭喜你已经完成了系统更新，谢谢您使用此脚本！'
+
+wget https://nodejs.org/dist/v12.12.0/node-v12.12.0.tar.gz && tar-xvf node-v12.12.0.tar.gz && cd node-v12.12.0.tar.gz && ./configure && make && make install && cp /usr/local/bin/node /usr/sbin/ 
+
+echo ''
+echo '安装Node-js成功'
+echo ''
+
+node --version
+
+echo ''
+echo '检测成功'
+echo ''
+
+npm install -g npm
+
+echo ''
+echo '更新npm成功'
+echo ''
+
+echo '恭喜你已经完成了全部更新，谢谢您使用此脚本！'
