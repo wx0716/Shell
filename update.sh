@@ -25,6 +25,12 @@ echo ''
 echo '更新成功，已成功退出！'
 echo ''
 
+sudo apt install gcc && apt install cmake
+
+echo ''
+echo '安装成功'
+echo ''
+
 wget https://nodejs.org/dist/v10.16.3/node-v10.16.3.tar.gz && tar -xvf node-v10.16.3.tar.gz && cd node-v10.16.3 && ./configure && make && make install && cp /usr/local/bin/node /usr/sbin/ 
 
 echo ''
