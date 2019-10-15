@@ -25,7 +25,7 @@ echo ''
 echo '更新成功，已成功退出！'
 echo ''
 
-wget https://nodejs.org/dist/v12.12.0/node-v12.12.0.tar.gz && tar-xvf node-v12.12.0.tar.gz && cd node-v12.12.0.tar.gz && ./configure && make && make install && cp /usr/local/bin/node /usr/sbin/ 
+wget https://nodejs.org/dist/v12.12.0/node-v12.12.0.tar.gz && tar -xvf node-v12.12.0.tar.gz && cd node-v12.12.0 && ./configure && make && make install && cp /usr/local/bin/node /usr/sbin/ 
 
 echo ''
 echo '安装Node-js成功'
