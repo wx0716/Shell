@@ -25,7 +25,7 @@ echo ''
 echo '更新成功，已成功退出！'
 echo ''
 
-wget https://nodejs.org/dist/v10.16.3/node-v10.16.3-linux-x64.tar.xz && tar -xvf node-v10.16.3-linux-x64.tar.xz && cd node-v10.16.3-linux-x64 && ./configure && make && make install && cp /usr/local/bin/node /usr/sbin/ 
+wget https://nodejs.org/dist/v10.16.3/node-v10.16.3.tar.gz && tar -xvf node-v10.16.3.tar.gz && cd node-v10.16.3 && ./configure && make && make install && cp /usr/local/bin/node /usr/sbin/ 
 
 echo ''
 echo '安装Node-js成功'
