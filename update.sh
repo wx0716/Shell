@@ -28,16 +28,28 @@ echo ''
 sudo apt install gcc && apt install cmake
 
 echo ''
-echo '安装成功'
+echo '安装成功！'
 echo ''
 
-wget https://nodejs.org/dist/v10.16.3/node-v10.16.3.tar.gz && sudo tar -zxvf node-v10.16.3.tar.gz && cd node-v10.16.3 && ./configure && make && make install && cp /usr/local/bin/node /usr/sbin/ 
+sudo apt install nodejs
 
 echo ''
-echo '安装Node-js成功'
+echo '安装Node-js成功！'
 echo ''
 
 node --version
+
+echo ''
+echo '检测成功！'
+echo ''
+
+sudo apt install npm
+
+echo ''
+echo '安装npm成功！'
+echo ''
+
+npm --version
 
 echo ''
 echo '检测成功'
