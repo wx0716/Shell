@@ -10,7 +10,7 @@ echo ''
 sudo apt autoremove
 
 echo ''
-echo '删除成功，已成功退出！'
+echo '自动删除成功，已成功退出！'
 echo ''
 
 sudo apt install curl 
@@ -59,6 +59,12 @@ npm install -g npm
 
 echo ''
 echo '更新npm成功'
+echo ''
+
+sudo apt autoremove
+
+echo ''
+ehco '检测完毕，自动删除成功'
 echo ''
 
 echo '恭喜你已经完成了全部更新，谢谢您使用此脚本！'
