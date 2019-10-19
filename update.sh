@@ -69,8 +69,10 @@ echo ''
 
 sudo apt autoremove # 自动删除系统组件，最后检查一次
 
+echo '自动删除成功'
+
 echo ''
-ehco '检测完毕，自动删除成功'
+echo '项目已检测完毕，系统更新成功'
 echo ''
 
-echo '恭喜你已经完成了全部更新，谢谢您使用此脚本！'
+echo 'x感谢你使用此脚本!'
