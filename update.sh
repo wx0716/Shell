@@ -67,10 +67,6 @@ echo ''
 echo '安装成功‘
 echo ''
 
-sudo apt autoremove # 自动删除系统组件，最后检查一次
-
-echo '自动删除成功'
-
 echo ''
 echo '项目已检测完毕，系统更新成功'
 echo ''
