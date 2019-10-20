@@ -1,74 +1,45 @@
 #!/bin/bash
-# author：王鑫
-sudo apt full-upgrade # 更新系统组件
+# author:王鑫
+# author_email:wx071611@163.com
 
-echo ''
-echo '更新成功，已成功退出！'
-echo ''
+echo "^_^欢迎使用此脚本，脚本开始运行……"
+echo ""
 
+echo "开始更新系统组件，若没有则自动跳过!"
+echo ""
+sudo apt install full-upgrade
+echo ""
 
-sudo apt autoremove # 自动删除无用的系统组件
+echo "开始检测是否安装了curl，若无则安装如有则更新!"
+echo ""
+curl --version && sudo apt install curl
+echo ""
 
-echo ''
-echo '自动删除成功，已成功退出！'
-echo ''
+echo "开始检测是否安装了wget，若无则安装如有则更新!"
+echo ""
+wget --version && sudo apt install wget
+echo ""
 
-sudo apt install curl # 安装curl工具
+echo "开始检测是否安装了node-js环境，若无则安装如有则更新!"
+echo ""
+node --version && sudo apt install nodejs
+echo ""
 
-echo ''
-echo '更新成功，已成功退出！'
-echo ''
+echo "开始检测是否安装了npm，若无则安装如有则更新!"
+echo ""
+npm --version && sudo apt install npm && npm install -g npm
+echo ""
 
-sudo apt install wget # 安装wget工具
+echo "开始检测是否安装了gcc和cmake，若无则安装如有则更新!"
+echo ""
+gcc --version && sudo apt install gcc && cmake --version && sudo apt install cmake
+echo ""
 
-echo ''
-echo '更新成功，已成功退出！'
-echo ''
+echo "开始检测是否安装了python3和pip，若无则安装如有则更新!"
+echo ""
+python3 --version && sudo apt install python3
+pip3 --version && sudo apt install python3-pip && pip3 install --upgrade pip
+echo ""
 
-sudo apt install gcc && apt install cmake # 安装gcc和cmake编译器
-
-echo ''
-echo '安装成功！'
-echo ''
-
-sudo apt install nodejs # 安装JavaScript服务器端的nodejs环境
-
-echo ''
-echo '安装Node-js成功！'
-echo ''
-
-node --version # 检测服务器端nodejs的版本号
-
-echo ''
-echo '检测成功！'
-echo ''
-
-sudo apt install npm # 安装nodejs版本控制工具
-
-echo ''
-echo '安装npm成功！'
-echo ''
-
-npm --version # 检测服务器端npm的版本
-
-echo ''
-echo '检测成功'
-echo ''
-
-npm install -g npm # 更新npm版本
-
-echo ''
-echo '更新npm成功'
-echo ''
-
-sudo apt install python3-pip # 安装pip软件包控制
-
-echo ''
-echo '安装成功‘
-echo ''
-
-echo ''
-echo '项目已检测完毕，系统更新成功'
-echo ''
-
-echo '感谢你使用此脚本!'
+echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
+echo "如需s再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
