@@ -38,8 +38,9 @@ echo ""
 echo "开始检测是否安装了python3和pip，若无则安装如有则更新!"
 echo ""
 python3 --version && sudo apt install python3
+echo ""
 pip3 --version && sudo apt install python3-pip && pip3 install --upgrade pip
 echo ""
 
 echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
-echo "如需s再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
+echo "如需再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
