@@ -42,5 +42,10 @@ echo ""
 pip3 --version && sudo apt install python3-pip && pip3 install --upgrade pip
 echo ""
 
+echo "开始清除垃圾文件……"
+echo ""
+sudo apt autoremove
+echo ""
+
 echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
 echo "如需再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
