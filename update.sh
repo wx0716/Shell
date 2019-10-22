@@ -2,7 +2,7 @@
 # author:王鑫
 # author_email:wx071611@163.com
 
-echo "^_^欢迎使用此脚本，脚本开始运行……"
+echo "……欢迎使用此脚本，脚本开始运行……"
 echo ""
 
 echo "开始更新系统组件，若没有则自动跳过!"
@@ -48,4 +48,5 @@ sudo apt autoremove
 echo ""
 
 echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
+ehco ""
 echo "如需再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
