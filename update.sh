@@ -1,13 +1,13 @@
 #!/bin/bash
 # author:王鑫
-# author_email:wx071611@163.com
+# author_email:wx071611@gmail.com
 
 echo "……欢迎使用此脚本，脚本开始运行……"
 echo ""
 
 echo "开始更新系统组件，若没有则自动跳过!"
 echo ""
-sudo apt full-upgrade
+sudo apt update && sudo apt upgrade
 echo ""
 
 echo "开始检测是否安装了curl，若无则安装如有则更新!"
