@@ -9,36 +9,36 @@ echo ""
 echo "开始更新系统组件，若没有则自动跳过!"
 echo ""
 
-sudo apt update
-sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 echo " "
 
 echo "开始检测是否安装了curl，若无则安装如有则更新!"
 echo " "
 curl --version
-sudo apt install curl
+sudo apt install -y curl
 echo " "
 
 echo "开始检测是否安装了wget，若无则安装如有则更新!"
 echo " "
 wget --version
-sudo apt install wget
+sudo apt install -y wget
 ehco " "
 
 echo "开始检测是否安装了python3和pip，若无则安装如有则更新!"
 echo " "
 python3 --version 
-sudo apt install python3
+sudo apt install -y python3
 ehco " "
 pip3
-sudo apt install python3-pip
+sudo apt install -y python3-pip
 pip3 install --upgrade pip
 ehco " "
 
 echo "开始清除垃圾文件……"
 echo " "
-sudo apt autoremove
-sudi apt autoclean
+sudo apt autoremove -y
+sudi apt autoclean -y
 echo " "
 
 echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
