@@ -11,23 +11,25 @@ echo ""
 
 yum -y upgrade
 
-echo " "
+echo ""
 
 echo "开始检测是否安装了curl，若无则安装如有则更新!"
-echo " "
-curl --version && sudo yum -y install curl
-echo " "
+echo ""
+curl --version
+sudo yum -y install curl && sudo yum -y update curl
+echo ""
 
 echo "开始检测是否安装了wget，若无则安装如有则更新!"
-echo " "
-wget --version && sudo yum -y install wget
-ehco " "
+echo ""
+wget --version
+sudo yum -y install wget && sudo yum -y update wget
+ehco ""
 
 echo "开始清除垃圾文件……"
-echo " "
+echo ""
 sudo yum -y autoremove
-echo " "
+echo ""
 
 echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
-ehco " "
+ehco ""
 echo "如需再次使用此脚本，只需输入bash centos_update.sh命令即可再次使用。"
