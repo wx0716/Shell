@@ -32,5 +32,4 @@ sudo yum -y clean all
 echo ""
 
 echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
-ehco ""
 echo "如需再次使用此脚本，只需输入bash centos_update.sh命令即可再次使用。"
