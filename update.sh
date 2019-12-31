@@ -49,5 +49,5 @@ sudo apt autoclean -y
 echo ""
 
 echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
-echo "当然也欢迎大家访问我的博客网站:https://www.王鑫0716.com,或者GitHub主页:https://www.github.com/wx0716"
+echo "当然也欢迎大家访问我的博客网站:https://www.wx0716.cn,或者GitHub主页:https://www.github.com/wx0716"
 echo "如需再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
