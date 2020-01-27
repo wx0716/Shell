@@ -12,8 +12,7 @@
 
 * Ubuntu服务器一键更新系统脚本：https://github.com/wx0716/Ubuntu-Shell/blob/master/update.sh
 
-* CentOS服务器一键更新系统脚本：https://github.com/wx0716/Ubuntu-Shell/blob/master/centos_update.sh
+* CentOS服务器一键更新系统脚本：https://github.com/wx0716/Ubuntu-Shell/blob/master/centos.sh
 
 ### 如果你觉得这篇文章对你来说还不错，可以请我喝杯咖啡。
-![微信二维码](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur4c34r1j306l08wq34.jpg)
-![支付宝二维码](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur6gxs04j305x08wwfe.jpg)
+![微信二维码](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur4c34r1j306l08wq34.jpg)s![支付宝二维码](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur6gxs04j305x08wwfe.jpg)
