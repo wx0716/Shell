@@ -58,5 +58,7 @@ printf ""
 apt autoclean -y
 
 printf "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
+printf ""
 printf "当然也欢迎大家访问我的博客网站:https://www.wx0716.org"
+printf ""
 printf "如需再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
