@@ -34,5 +34,7 @@ printf ""
 yum -y clean all
 
 printf "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
+printf ""
 printf "如需再次使用此脚本，只需输入bash centos.sh命令即可再次使用。"
+printf ""
 printf "欢迎大家访问我的主页https://www.wx0716.cn"
