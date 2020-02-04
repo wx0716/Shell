@@ -13,6 +13,12 @@ yum -y install curl && yum -y update curl
 echo "开始检测是否安装了wget，若无则安装如有则更新!"
 wget --version
 echo ""
+echo "开始检测是否安装了pip3"
+pip3
+echo ""
+echo "开始更新pip3"
+pip3 install --upgrade pip
+echo ""
 yum -y install wget && yum -y update wget
 echo "开始清除垃圾文件……"
 yum -y autoremove
