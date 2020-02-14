@@ -16,6 +16,9 @@ echo ""
 echo "开始检测是否安装了pip3"
 pip3
 echo ""
+echo "开始按照pip3"
+yum -y install python3-pip
+echo ""
 echo "开始更新pip3"
 pip3 install --upgrade pip
 echo ""
