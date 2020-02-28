@@ -9,6 +9,8 @@ echo "开始更新系统组件，若没有则自动跳过!"
 
 yum -y upgrade
 
+wget --version && yum -y update wget
+
 echo "开始检测是否安装了curl，若无则安装如有则更新!"
 
 curl --version
@@ -41,15 +43,11 @@ pip3 install --upgrade pip
 
 echo ""
 
-yum -y install wget && yum -y update wget
-
 echo "开始清除垃圾文件……"
 
 yum -y autoremove
 
 echo ""
-
-yum -y clean all
 
 echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
 
