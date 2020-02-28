@@ -4,7 +4,7 @@
 
 ## 当然如果你们有其它好的配置方法可以提交issues
 
-![Ubuntu](https://github.com/wx0716/Shell/master/img/Ubuntu.svg)
+![Ubuntu](https://raw.githubusercontent.com/wx0716/Shell/master/img/Ubuntu.png)
 
 ## 文章列表
 
