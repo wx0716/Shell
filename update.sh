@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 # author: David wang
 # author_email: wx@wx0716.org
-# author_blog: www.wx0716.org
+# author_blog: https://wx0716.org
 
 echo "……欢迎使用此脚本，脚本开始运行……"
 
@@ -20,14 +20,6 @@ curl --version
 echo ""
 
 apt install -y curl
-
-echo "开始检测是否安装了wget，若无则安装如有则更新!"
-
-wget --version
-
-echo ""
-
-apt install -y wget
 
 echo "开始检测是否安装了python3和pip，若无则安装如有则更新!"
 
@@ -61,7 +53,7 @@ echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎�
 
 echo ""
 
-echo "当然也欢迎大家访问我的博客网站:https://www.wx0716.org"
+echo "当然也欢迎大家访问我的博客网站:https://wx0716.org"
 
 echo ""
 
