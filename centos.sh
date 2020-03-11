@@ -1,15 +1,15 @@
 #! /usr/bin/bash
 # author: David wang
 # author_email: wx@wx0716.org
-# author_blog: www.wx0716.org
+# author_blog: https://wx0716.org
 
 echo "……欢迎使用此脚本，脚本开始运行……"
 
 echo "开始更新系统组件，若没有则自动跳过!"
 
-yum -y upgrade
+yum -y update
 
-wget --version && yum -y update wget
+yun -y upgrade
 
 echo "开始检测是否安装了curl，若无则安装如有则更新!"
 
@@ -57,4 +57,4 @@ echo "如需再次使用此脚本，只需输入bash centos.sh命令即可再次
 
 echo ""
 
-echo "欢迎大家访问我的主页https://www.wx0716.org"
+echo "欢迎大家访问我的主页https://wx0716.org"
