@@ -1,33 +1,41 @@
 #! /usr/bin/bash
 # author: David wang
 # author_email: wx@wx0716.org
-# author_blog: https://wx0716.org
+# author_blog: https://wx0716.com
 
-echo "……欢迎使用此脚本，脚本开始运行……"
+red(){
+    echo -e "\033[31m\033[01m$1\033[0m"
+}
 
-echo "开始更新系统组件，若没有则自动跳过!"
+red "======================================================================="
+red "……欢迎使用此脚本，脚本开始运行……"
+red "……开始更新系统组件，若没有则自动跳过!……"
 
-apt update -y
+sudo apt update -y
 
 echo ""
 
-apt upgrade -y
+sudo apt upgrade -y
 
-echo "开始检测是否安装了curl，若无则安装如有则更新!"
+red "======================================================================="
+red "……开始检测是否安装了curl，若无则安装如有则更新!……"
+red "======================================================================="
 
 curl --version
 
 echo ""
 
-apt install -y curl
+sudo apt install -y curl
 
-echo "开始检测是否安装了python3和pip，若无则安装如有则更新!"
+red "======================================================================="
+red "……开始检测是否安装了python3和pip，若无则安装如有则更新!……"
+red "======================================================================="
 
 python3 --version 
 
 echo ""
 
-apt install -y python3
+sudo apt install -y python3
 
 echo ""
 
@@ -35,26 +43,24 @@ pip3
 
 echo ""
 
-apt install -y python3-pip
+sudo apt install -y python3-pip
 
 echo ""
 
 pip3 install --upgrade pip
 
-echo "开始清除垃圾文件……"
+red "======================================================================="
+red "……开始清除垃圾文件……"
+red "======================================================================="
 
-apt autoremove -y
-
-echo ""
-
-apt autoclean -y
-
-echo "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
+sudo apt autoremove -y
 
 echo ""
 
-echo "当然也欢迎大家访问我的博客网站:https://wx0716.org"
+sudo apt autoclean -y
 
-echo ""
-
-echo "如需再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
+red "======================================================================="
+red "一键更新全部更新安装完毕，感谢您使用此脚本，欢迎再次使用此脚本。"
+red "如需再次使用此脚本，只需输入bash update.sh命令即可再次使用。"
+red "当然也欢迎大家访问我的博客网站:https://wx0716.com"
+red "======================================================================="
