@@ -18,7 +18,7 @@ sudo apt update -y
 
 echo ""
 
-sudo apt upgrade -y
+sudo apt full-upgrade -y
 
 echo ""
 
