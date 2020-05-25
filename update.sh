@@ -58,7 +58,15 @@ sudo apt install -y python3-pip
 
 echo ""
 
-python3 -m pip freeze > requirements.txt && python3 -m pip install -r requirements.txt --upgrade && rm -f requirements.txt
+python3 -m pip freeze > requirements.txt
+
+echo "" 
+
+python3 -m pip install -r requirements.txt --upgrade
+
+echo ""
+
+rm -f requirements.txt
 
 echo ""
 
