@@ -14,7 +14,7 @@ blue "======================================================================="
 
 sudo yum -y update
 
-sudo yun -y upgrade
+sudo yum -y upgrade
 
 echo ""
 
@@ -72,11 +72,11 @@ blue "======================================================================="
 
 echo ""
 
-python3 -m pip freeze > requirements.txt
+sudo python3 -m pip freeze > requirements.txt
 
 echo ""
 
-python3 -m pip install -r requirements.txt --upgrade
+sudo python3 -m pip install -r requirements.txt --upgrade
 
 echo ""
 
