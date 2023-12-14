@@ -12,7 +12,7 @@
 
 ## 文章列表
 
-* [Ubuntu服务器配置JDK21环境文档](https://github.com/wx0716/Shell/blob/master/JDK21.md)
-* [Ubuntu服务器一键更新系统脚本](https://github.com/wx0716/Shell/blob/master/update.sh)
-* [CentOS服务器一键更新系统脚本](https://github.com/wx0716/Shell/blob/master/centos.sh)
-* [Ubuntu桌面版配置文档](https://github.com/wx0716/Shell/blob/master/Ubuntu桌面版配置.md)
+* [Ubuntu服务器配置JDK21环境文档](JDK21.markdown)
+* [Ubuntu服务器一键更新系统脚本](update.sh)
+* [CentOS服务器一键更新系统脚本](centos.sh)
+* [Ubuntu桌面版配置文档](Ubuntu桌面版配置.markdown)
