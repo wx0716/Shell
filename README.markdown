@@ -19,5 +19,6 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=wx0716/Golang_Study,wx0716/Shell&type=Date)](https://star-history.com/#wx0716/Golang_Study&wx0716/Shell&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=wx0716/Shell&type=Date)](https://star-history.com/#wx0716/Shell&Date)
+
 
