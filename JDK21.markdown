@@ -1,9 +1,10 @@
 ### 下载JDK
-下载地址为：https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+下载地址为：https://www.oracle.com/cn/java/technologies/downloads/
 
 下载完成后，进行解压操作：
 ```bash
-sudo tar -zxvf jdk-8u221-linux-x64.tar.gz?AuthParam=1568443470_8fcdbd212148d6ad2647fddb2bdeacd3
+sudo wget -N --no-check-certificate https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz && tar -zxvf jdk-21_linux-x64_bin.tar.gz
 ```
 ### 修改系统变量
 ```bash
