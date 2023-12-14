@@ -16,3 +16,8 @@
 * [Ubuntu服务器一键更新系统脚本](update.sh)
 * [CentOS服务器一键更新系统脚本](centos.sh)
 * [Ubuntu桌面版配置文档](Ubuntu桌面版配置.markdown)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=wx0716/Golang_Study,wx0716/Shell&type=Date)](https://star-history.com/#wx0716/Golang_Study&wx0716/Shell&Date)
+
