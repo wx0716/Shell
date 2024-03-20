@@ -6,7 +6,7 @@
 
 ---
 
-<img src="img/Ubuntu.svg" alt="图片">
+<img src="Images/Ubuntu.svg" alt="图片">
 
 ---
 
