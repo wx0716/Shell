@@ -6,7 +6,7 @@
 
 ---
 
-![图片](/Users/wangxin/Project/Shell/Images/Ubuntu.svg)
+![图片](Images/Ubuntu.svg)
 
 ---
 
