@@ -8,17 +8,34 @@
 
 <img src="img/Ubuntu.svg" alt="图片">
 
---- 
+---
 
 ## 文章列表
 
 * [Ubuntu服务器配置JDK21环境文档](JDK21.markdown)
 * [Ubuntu服务器一键更新系统脚本](update.sh)
+
+  * 使用方法：
+
+    ```shell
+    wget https://raw.githubusercontent.com/wx0716/Shell/master/update.sh && sudo chmod +x update.sh && source update.sh
+    ```
+
+    
+
 * [CentOS服务器一键更新系统脚本](centos.sh)
+
+  * 使用方法：
+
+    ```shell
+    wget https://raw.githubusercontent.com/wx0716/Shell/master/centos.sh && sudo chmod +x centos.sh && source centos.sh
+    ```
+
+    
+
 * [Ubuntu桌面版配置文档](Ubuntu桌面版配置.markdown)
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wx0716/Shell&type=Date)](https://star-history.com/#wx0716/Shell&Date)
-
 
